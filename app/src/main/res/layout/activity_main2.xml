@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity2"
+    tools:ignore="ExtraText"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-22dp">
+
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="162dp"
+        android:layout_height="430dp"
+        android:alpha="0.5"
+        app:srcCompat="@drawable/s"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="155dp"
+        android:layout_height="288dp"
+        android:alpha="0.5"
+        android:clickable="true"
+        android:onClick="speaknow"
+        app:srcCompat="@drawable/s2"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <ImageView
+
+        android:id="@+id/imageView6"
+        android:layout_width="148dp"
+        android:layout_height="132dp"
+        android:alpha="0.5"
+        app:srcCompat="@drawable/s1"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="372dp"
+        android:layout_height="212dp"
+        android:alpha="0.5"
+        android:forceDarkAllowed="false"
+        app:srcCompat="@drawable/good"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+
+        android:text="w"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <TextView
+        android:id="@+id/temperature"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="120dp"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:forceDarkAllowed="false"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="60dp"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:forceDarkAllowed="false"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="842dp" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="60dp"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:forceDarkAllowed="false"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="844dp" />
+
+    <TextView
+        android:id="@+id/textViewdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textview"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <TextView
+        android:id="@+id/humid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="727dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Humidity"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="707dp" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="638dp" />
+
+    <TextView
+        android:id="@+id/windval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="658dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pressure"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="772dp" />
+
+    <TextView
+        android:id="@+id/pressureval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <ImageView
+        android:id="@+id/iconImage"
+        android:layout_width="102dp"
+        android:layout_height="98dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <TextView
+        android:id="@+id/gm"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+
+        android:id="@+id/q_text"
+        android:layout_width="222dp"
+        android:layout_height="123dp"
+
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <TextView
+        android:id="@+id/author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <TextView
+        android:id="@+id/location_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:capitalize="none"
+        android:clickable="true"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:alpha="0.7"
+        app:srcCompat="@drawable/edit_bg"
+        tools:layout_editor_absoluteX="356dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+
+        android:id="@+id/changeCity"
+        android:layout_width="41dp"
+        android:layout_height="33dp"
+        android:clickable="true"
+        android:onClick="changeLocation"
+        app:srcCompat="@drawable/edit_icon"
+        tools:layout_editor_absoluteY="809dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        android:clickable="true"
+        android:onClick="speaknow"
+        app:srcCompat="@drawable/speaker"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunrise"
+        android:textColor="@color/white"
+
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="638dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunset"
+        android:textColor="@color/white"
+
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="725dp" />
+
+    <TextView
+        android:id="@+id/rise_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunrise"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/sset_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunset"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="757dp">
+
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
